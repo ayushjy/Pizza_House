@@ -28,7 +28,7 @@ const gotobase = ()=>{
           <motion.div
           initial={{opacity:0.5}}
           animate={{ opacity:1,scale:1.5}}
-          transition={{delay:0 ,duration:1}} className='head1 text-3xl text-[#820300]'>Welcome to Pizza House🙏</motion.div>
+          transition={{delay:0 ,duration:1}} className='head1 text-3xl text-[#820300]'>Welcome to Pizza House</motion.div>
           <motion.button
           variants={buttonvariants}
           whileHover="hover" className='head2  mb-52 text-xl text-[#820300] border-4 border-[#f7b21e] rounded-full px-10 py-2' onClick={gotobase}>Create Your Pizza</motion.button>
